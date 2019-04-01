@@ -81,7 +81,7 @@ namespace EldritchArcana
 
             warpriest.IsDivineCaster = true;
             warpriest.IsArcaneCaster = false;
-
+            
             var paladin = library.Get<BlueprintCharacterClass>("bfa11238e7ae3544bbeb4d0b92e897ec");
             warpriest.StartingGold = paladin.StartingGold; // all classes start with 411.
             warpriest.PrimaryColor = paladin.PrimaryColor;
